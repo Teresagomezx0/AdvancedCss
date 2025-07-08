@@ -6,17 +6,16 @@
 
 .americanflag {
     width: 90vw;
-    background-color: bisque;
-    border: 8px solid black;
+    background-color: white;
     position: absolute;
     left: 0px;
     margin:0px;
     top:0;
-    max-width:1400px;
+    max-width: 1000px;
 }
 
 .americanflag td {
-    height: 58px;
+    height: 40px;
 }
 
 .red {
@@ -32,6 +31,6 @@ img {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 410px;
-    width: 490px;
+    height: 300px;
+    width: 400px;
 } 
