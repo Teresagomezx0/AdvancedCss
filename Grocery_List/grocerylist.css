@@ -1,0 +1,79 @@
+/* this is the CSS for the grocery list starting now */
+
+.grocerylistpage {
+    background-color:cornflowerblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aliceblue;
+    width: 900px;
+    opacity: 0.8;
+    border-radius: 12px;
+    padding:auto;
+    box-shadow: 10px 5px 5px black;
+}
+
+h6{ 
+    color: gray;
+    font-size: small;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    opacity:.9;
+    
+}
+
+h5{
+    text-align:left;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+}
+
+.products_grid {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns:  repeat(4, 300px);
+    grid-template-rows: 390px 390px;
+    gap: 25px;
+    margin-left: 10%;
+}
+
+.product {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0;
+    margin:0;
+    box-shadow: 10px 5px 5px black;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    align-items: center;
+
+}
+
+
+.product_price{
+    font-weight: bold;
+    text-align: left;
+    padding:0;
+    margin-top: 60px;
+    color: red;
+}
+
